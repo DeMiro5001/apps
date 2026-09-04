@@ -16,15 +16,13 @@ deprecated_date = 1729517763 # 2024/10/21
 killed_date = 1756301846 # 2025/08/27
 url = "https://github.com/YunoHost-Apps/aeneria_ynh"
 
-[agendav]
+[akkoma]
 added_date = 1674232499 # 2023/01/20
-antifeatures = [ "deprecated-software" ]
-category = "synchronization"
-deprecated_date = 1717071136 # 2024/05/30
-killed_date = 1756379646 # 2025/08/28
-potential_alternative_to = [ "Google Agenda", "Microsoft Outlook" ]
-subtags = [ "calendar" ]
-url = "https://github.com/YunoHost-Apps/agendav_ynh"
+category = "social_media"
+killed_date = 1772028906 # 2026/02/25
+potential_alternative_to = [ "Firefish", "Gotosocial", "Mastodon", "Misskey", "Pleroma", "X" ]
+subtags = [ "microblogging" ]
+url = "https://github.com/YunoHost-Apps/akkoma_ynh"
 
 [alltube]
 added_date = 1674232499 # 2023/01/20
@@ -617,13 +615,6 @@ category = "system_tools"
 killed_date = 1703600553 # 2023/12/26
 url = "https://github.com/YunoHost-Apps/ntopng_ynh"
 
-[octoprint]
-added_date = 1708461644 # 2024/02/20
-category = "iot"
-deprecated_date = 1768844358
-killed_date = 1768844358
-url = "https://github.com/YunoHost-Apps/octoprint_ynh"
-
 [opennote]
 added_date = 1674232499 # 2023/01/20
 antifeatures = [ "deprecated-software" ]
@@ -660,6 +651,17 @@ url = "https://github.com/YunoHost-Apps/osmw_ynh"
 added_date = 1695656621 # 2023/09/25
 killed_date = 1753694274 # 2025/07/28
 url = "https://github.com/YunoHost-Apps/paperwork_ynh"
+
+
+[passed]
+added_date = 1743846139 # 2025/04/05
+antifeatures = [ "deprecated-software" ]
+category = "small_utilities"
+deprecated_date = 1774984613 # 2026/03/31
+killed_date = 1781865432
+potential_alternative_to = [ "Pastebin" ]
+subtags = [ "pastebin" ]
+url = "https://github.com/YunoHost-Apps/passed_ynh"
 
 [photonix]
 added_date = 1674232499 # 2023/01/20
@@ -950,6 +952,13 @@ added_date = 1590399842 # 2020/05/25
 category = "system_tools"
 killed_date = 1703600553 # 2023/12/26
 url = "https://github.com/YunoHost-Apps/unbound_ynh"
+
+[veloren]
+added_date = 1674232499 # 2023/01/20
+category = "games"
+killed_date = 1772028906 # 2026/02/25
+potential_alternative_to = [ "Minecraft" ]
+url = "https://github.com/YunoHost-Apps/veloren_ynh"
 
 [vpnserver]
 added_date = 1564314757 # 2019/07/28
